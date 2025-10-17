@@ -1,0 +1,138 @@
+<!DOCTYPE html> 
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Music Putin | Tu mundo en música</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <header class="navbar">
+     <a href="#inicio" class="logo">
+    <img src="img/music putin.png" alt="">
+  </a>
+    <h1 class="logo">Music Putin</h1>
+    <nav>
+      <ul class="nav-links">
+        <li><a href="#inicio">Inicio</a></li>
+        <li><a href="#empresa">Nosotros</a></li>
+        <li><a href="#productos">Álbumes</a></li>
+        <li><a href="#contacto">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- HERO + CARRUSEL -->
+  <section id="inicio" class="carrusel">
+    <div class="slides">
+      <div class="slide active">
+        <img src="img/fondo1.jpg" alt="Imagen 1">
+        <div class="caption">
+          <h2>Descubre. Vibra. Siente.</h2>
+          <p>Vive la experiencia de tu música favorita sin límites.</p>
+        </div>
+      </div>
+
+      <div class="slide">
+        <img src="img/fond2.jpg" alt="Imagen 2">
+        <div class="caption">
+          <h2>Artistas que inspiran</h2>
+          <p>Explora sonidos que te acompañan en cada momento.</p>
+        </div>
+      </div>
+
+      <div class="slide">
+        <img src="img/Imagen de WhatsApp 2025-10-14 a las 12.13.55_8009a8d7.jpg" alt="Imagen 3">
+        <div class="caption">
+          <h2>La música te conecta</h2>
+          <p>Deja que el ritmo te guíe. Tu historia empieza aquí.</p>
+        </div>
+      </div>
+    </div>
+
+    <button class="btn prev">&#10094;</button>
+    <button class="btn next">&#10095;</button>
+  </section>
+
+
+  <!-- SECCIÓN EMPRESA -->
+  <section id="empresa" class="empresa">
+    <div class="empresa-texto">
+      <h2>Sobre Nosotros</h2>
+      <p>En <strong>Music Putin</strong> creemos que la música es más que sonido: es energía, recuerdos y pasión. Nuestra misión es conectar a las personas con los artistas que inspiran su vida.</p>
+    </div>
+    <div class="empresa-img">
+      <img src="img/Imagen de WhatsApp 2025-10-14 a las 12.13.55_8009a8d7.jpg" alt="Estudio de música">
+    </div>
+  </section>
+
+  <!-- PRODUCTOS -->
+  <section id="productos" class="productos">
+    <h2>Álbumes Destacados</h2>
+    <div class="grid-productos">
+      <div class="producto">
+        <img src="img/Ice.jpg" alt="Flower Boy - Tyler, The Creator">
+        <div class="overlay">
+          <h3>ICE CUBE</h3>
+          <p>El artista mas Helado</p>
+        </div>
+      </div>
+
+      <div class="producto">
+        <img src="img/Jose JOse.jpg" alt="José José">
+        <div class="overlay">
+          <h3>José José</h3>
+          <p>El príncipe de la canción</p>
+        </div>
+      </div>
+
+      <div class="producto">
+        <img src="img/DATA.jpg" alt="Canserbero">
+        <div class="overlay">
+          <h3>Escuchen DATA</h3>
+          <p>TAINY</p>
+        </div>
+      </div>
+
+      <div class="producto">
+        <img src="img/Miloj.jpg" alt="Milo J">
+        <div class="overlay">
+          <h3>Milo J</h3>
+          <p>Nuevo talento urbano</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACTO -->
+  <section id="contacto" class="contacto">
+    <h2>Contáctanos</h2>
+    <form>
+      <div class="input-group">
+        <input type="text" id="nombre">
+        <label for="nombre">Nombre</label>
+      </div>
+
+      <div class="input-group">
+        <input type="email" id="correo">
+        <label for="correo">Correo</label>
+      </div>
+
+      <div class="input-group">
+        <textarea id="mensaje" rows="4"></textarea>
+        <label for="mensaje">Mensaje</label>
+      </div>
+
+      <button type="submit" class="btn-enviar">Enviar</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Music Putin. Todos los derechos reservados.</p>
+  </footer>
+
+</body>
+<script src="js/app.js"></script>
+</html>
